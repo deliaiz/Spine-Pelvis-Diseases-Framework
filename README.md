@@ -3,3 +3,16 @@ A gait analysis diagnostic Framework for spine and pelvis diseases in localizati
 The article is currently in the submission period, and the model code will be released after the article is accepted.
 # Software Requirements
 ## Hardware requirements
+The package development version is tested on Linux operating systems.
+Linux: Ubuntu 16.04
+window: window 10
+CUDA/cudnn:10.1
+## Python Dependencies
+> - Python
+> - PyTorch-cuda
+> - torchvision
+> - opencv
+> - numpy
+> - json
+> - os
+...
