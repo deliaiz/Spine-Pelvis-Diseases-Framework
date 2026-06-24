@@ -18,8 +18,8 @@ CUDA/cudnn:10.1
 ...
 ## Prepare dataset
 1. Prepare an txt file containing video names(*.mp4) and the Label to complete video sequences as the data input for training.
-   For example
-   P01_01.mp4 0
+   For example:
+   P01_01.mp4 0 \\
    P03_1_01.mp4 3
 # Training and Evaluation example
 Training and evaluation are on a single GPU.
