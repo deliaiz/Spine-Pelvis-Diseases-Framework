@@ -16,3 +16,11 @@ CUDA/cudnn:10.1
 > - json
 > - os
 ...
+## Prepare dataset
+1. Prepare an txt file containing video names(*.mp4) and the Label to complete video sequences as the data input for training.
+# Training and Evaluation example
+Training and evaluation are on a single GPU.
+## Train
+python train.py
+## Evaluation
+python test.py
